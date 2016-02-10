@@ -1,3 +1,6 @@
+html {
+  font-size: 10px;
+}
 .logo-img__svg {
   width: 100px;
   height: auto;
@@ -39,10 +42,31 @@
 .main-header__hello-block {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   text-align: left;
-  border-left: 10px solid #fff;
+  border-left: 10px solid #FC9300;
+  width: 350px;
+  padding-left: 10px;
+}
+.main-header__hello-block::after {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 10px;
+  background-color: #FC9300;
+}
+.main-header__title {
+  margin: 0;
+  padding: 0;
+  font: 400 5rem/5rem "Lobster", serif;
+  color: #fff;
+}
+.main-header__descr {
+  font: 400 3rem/3rem "Lobster", serif;
+  color: #fff;
 }
 .c-hamburger {
   display: block;
