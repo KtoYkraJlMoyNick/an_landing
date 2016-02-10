@@ -1,0 +1,35 @@
+.main-header {
+	padding: 20px 0 0 0;
+	position: relative;
+	&__logo-wrap {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	&__hamburger-wrap {
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		z-index: 50;
+	}
+	&__nav-wrap {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(0,45,61,.8);
+		display: none;
+		z-index: 45;
+		&--show {
+			display: block;
+		}
+	}
+	&__hello-block {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		text-align: left;
+		border-left: 10px solid #fff;
+	}
+}
