@@ -48,6 +48,7 @@ $(document).ready(function(){
  		 heightDetect();
 	});
 	$(".main-header").parallax(	{imageSrc: 'img/bg.jpg'});
+	$(".main-header__hello-block").addClass('animated zoomIn');
 	$(".c-hamburger").on("click", function(){
 		$(".main-header__nav-wrap").fadeToggle("linear");
 	});

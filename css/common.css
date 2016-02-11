@@ -1,16 +1,18 @@
 html {
   font-size: 10px;
 }
-.logo-img__svg {
-  width: 100px;
-  height: auto;
+.logo-img {
+  line-height: 0;
+  font-size: 0;
 }
-.logo-img__svg:hover .logo-img__svg-path {
-  fill: #FFFF98;
-  transition: fill .5s;
+.logo-img__svg {
+  width: 120px;
+  height: auto;
 }
 .logo-img__svg-path {
   fill: #FC9300;
+  stroke-width: 5px;
+  stroke: #FC9300;
 }
 .main-header {
   padding: 20px 0 0 0;
@@ -48,15 +50,6 @@ html {
   border-left: 10px solid #FC9300;
   width: 350px;
   padding-left: 10px;
-}
-.main-header__hello-block::after {
-  position: absolute;
-  left: -10px;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 10px;
-  background-color: #FC9300;
 }
 .main-header__title {
   margin: 0;
