@@ -1,0 +1,37 @@
+.portfolio {
+	position: relative;
+	min-height: 100vh;
+	&__item {
+		cursor: pointer;
+		max-height: 300px;
+		overflow: hidden;
+		> img {
+			max-width: 100%;
+			height: auto;
+		}
+		&:hover .portfolio__about {
+			display: block;
+			transition: all .5s;
+		}
+	}
+	&__about {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(0,45,61,.8);
+	}
+	a {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		color: #fff;
+		display: block;
+		padding: 0 10px;
+		border: 1px solid #fff;
+	}
+
+}

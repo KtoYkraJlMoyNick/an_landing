@@ -51,7 +51,13 @@ $(document).ready(function(){
 	$(".c-hamburger").on("click", function(){
 		$(".main-header__nav-wrap").fadeToggle("linear");
 	});
+	$(".main-nav__link").on("click", function(){
+		$(".main-header__nav-wrap").fadeToggle("linear");
+		$(".is-active").removeClass("is-active");
+	});
+	$("a[href*='#']").mPageScroll2id();
 });
+
 
 $(window).load(function() {
 

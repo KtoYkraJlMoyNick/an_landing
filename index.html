@@ -60,8 +60,8 @@
 					<div class="main-header__nav-wrap">
 						<nav class="main-nav">
 							<ul class="main-nav__list">
-								<li class="main-nav__item"><a class="main-nav__link" href="#">Обо мне</a></li>
-								<li class="main-nav__item"><a class="main-nav__link" href="#">Портфолио</a></li>
+								<li class="main-nav__item"><a class="main-nav__link" href="#about-me">Обо мне</a></li>
+								<li class="main-nav__item"><a class="main-nav__link" href="#portfolio">Портфолио</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -73,17 +73,75 @@
 			</div>
 		</div>
 	</header>
+	<div class="main-content">
+		<section class="about-me" id="about-me">
+			<div class="container">
+				<div class="main-content__title-block">
+					<h2 class="main-content__title">Обо мне</h2>
+					<span class="main-content__sub-title">Образование и навыки</span>
+				</div>
+				<article class="skills">
+					<h3 class="skills__title">Мои навыки</h3>
+					<ul class="skills__list">
+						<li class="skills__item">HTML5, CSS3</li>
+						<li class="skills__item">Кроссбраузерная, семантичная и валидная верстка</li>
+						<li class="skills__item">Препроцессор LESS предпочтителен</li>
+						<li class="skills__item">JS(JQuery)</li>
+						<li class="skills__item">Знание Adobe PS в пределах нарезки макета</li>
+						<li class="skills__item">Task manager Grunt</li>
+						<li class="skills__item">Система контроля версий Git</li>
+					</ul>
+				</article>
+				<article class="education">
+					<h3 class="education__title">Курсы</h3>
+					<ul class="education__list">
+						<li class="education__item">
+							<span class="education__course">«Продвинутый HTML и CSS»</span>
+							<span class="education__company">HTML Academy</span>
+							<span class="education__date">2015 г.</span>
+						</li>
+						<li class="education__item">
+							<span class="education__course">«Базовый HTML и CSS»</span>
+							<span class="education__company">HTML Academy</span>
+							<span class="education__date">2015 г.</span>
+						</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="main-content__title-block">
+					<h2 class="main-content__title">Портфолио</h2>
+					<span class="main-content__sub-title">Некоторые мои работы</span>
+				</div>
+				<section class="portfolio__items">
+					<div class="row">
+						<div class="portfolio__item col-xs-12 col-sm-6 col-md-3">
+							<img src="img/p-fudi.jpg" alt="fudi">
+							<div class="portfolio__about">
+								<a class="porfolio__link" href="fudi/index.html">Посмотреть</a>
+							</div>
+						</div>
+						<div class="portfolio__item col-xs-12 col-sm-6 col-md-3">
+							<img src="img/p-technomart.jpg" alt="technomart">
+							<div class="portfolio__about">
+								<a class="porfolio__link" href="technomart/index.html">Посмотреть</a>
+							</div>
+						</div>
+						<div class="portfolio__item col-xs-12 col-sm-6 col-md-3">
+							<img src="img/p-pink.jpg" alt="pink">
+							<div class="portfolio__about">
+								<a class="porfolio__link" href="pink/index.html">Посмотреть</a>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div
+		</section>
+	</div>
 	
-	
-	
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="hidden"></div>
 
 	<div class="loader">
@@ -102,6 +160,7 @@
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/pageScroll2id/PageScroll2id.js"></script>
 	
 	<script src="js/common.js"></script>
 	<script src="js/hamburger.js"></script>
