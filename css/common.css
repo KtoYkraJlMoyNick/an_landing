@@ -221,6 +221,7 @@ html {
 }
 .portfolio__item {
   cursor: pointer;
+  height: 300px;
   max-height: 300px;
   overflow: hidden;
 }
